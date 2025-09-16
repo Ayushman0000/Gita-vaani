@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gita-Vaani: A Dose of Motivation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gita-Vaani 🕉️</h1>
+            <p>Select your current mood and get a divine message to guide you.</p>
+        </header>
+
+        <div class="mood-section">
+            <label for="mood-selector">How are you feeling today?</label>
+            <select id="mood-selector">
+                <option value="anxious">Anxious </option>
+                <option value="sad">Sad </option>
+                <option value="tired">Tired </option>
+                <option value="confused">Confused </option>
+                <option value="unmotivated">Unmotivated </option>
+                <option value="angry">Angry </option>
+                <option value="happy">Happy </option>
+            </select>
+            <button id="generate-btn">Generate Vaani</button>
+        </div>
+
+        <div class="result-box">
+            <p class="result-text" id="gita-line">Your personalized Gita Vaani will appear here...</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Gita-Vaani. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
